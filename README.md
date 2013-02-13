@@ -16,7 +16,9 @@ USAGE
 * Modify `ALIASES` dict to fit your board.
 * Modify `ESTIMATES` dict as you wish.
 * Download json data file from 
-	https://trello.com/1/boards/<YOUR_BOARD_ID>?cards=visible&card_checklists=all&lists=all&members=all
+	https://trello.com/1/boards/YOUR_BOARD_ID?cards=visible&card_checklists=all&lists=all&members=all
 * Then run `python trello_to_pivotal.py saved_export.json`
 * Upload files in the created trello folder, in opposite order to keep the order of items.
 * Inspect result, modify script, rerun until satisfied.
+
+Author: Sebastian Jansson
